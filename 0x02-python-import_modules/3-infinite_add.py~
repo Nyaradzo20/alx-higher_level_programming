@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+if __name__ == "__main__":
+    def addition(*args):
+      args = sys.args
+result = 0
+for arg in args:
+        result += arg
+sum = addition(*args)
+print(sum)
+
+ 
