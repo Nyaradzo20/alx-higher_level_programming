@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+value = x
+if x  == int(x):
+    print("True")
+if x != int(x):
+    print("False")
