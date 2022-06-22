@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+"""Square is the class name"""
+
+
+class Square:
+    """Class is empty so we will pass"""
+    def __init__(self, size):
+        """ size is a aprivate attribute in this instane"""   
+       self.__size = size
