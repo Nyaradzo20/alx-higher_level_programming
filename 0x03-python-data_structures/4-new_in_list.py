@@ -18,3 +18,13 @@ def new_in_list(my_list, idx, element):
 
     if idx >= index:
         return my_list
+'''
+#!/usr/bin/python3
+def new_in_list(my_list, idx, element):
+    lcopy = my_list.copy()
+    if idx < 0:
+        return my_list
+    if idx < len(my_list) and idx >= 0:
+        lcopy[idx] = element
+        return lcopy
+        '''
