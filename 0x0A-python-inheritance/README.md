@@ -1,1 +1,1 @@
-PYTHON INHERITANCE
+Class Inheritance 

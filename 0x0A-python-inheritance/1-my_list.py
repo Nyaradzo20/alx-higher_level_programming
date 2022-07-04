@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""Module for MyList class"""
+''' Module: 1-my_list
+'''
 
 
 class MyList(list):
-    """MyList class inherits list class attributes"""
-    pass
+    ''' Represents a MyList
+    '''
 
     def print_sorted(self):
-        """Pub Inst Method to print a sorted list"""
+        '''
+        prints the list, but sorted
+        '''
         print(sorted(self))
