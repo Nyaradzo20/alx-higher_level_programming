@@ -1,0 +1,9 @@
+import unittest
+from rick import Rick
+
+class RickTest(unittest.TestCase):
+    def test_universe():
+        rick = Rick(111)
+        self.assertEqual(rick.universe, 111)
+if __name__ == '__main__':
+    unittest.main()
