@@ -1,4 +1,4 @@
-# run test with python3 -m doctest -v ./tests/3-say_my_name.txt
+ python3 -m doctest -v ./tests/2-matrix_divided.txt | tail -2# run test with python3 -m doctest -v ./tests/3-say_my_name.txt
 
 First import method to test
 >>> say_my_name = __import__('3-say_my_name').say_my_name
@@ -9,7 +9,7 @@ Test two strings given:
      >>> say_my_name("First", "Middle Last")
      My name is First Middle Last
 
-     >>> say_my_name("nya")
+     >>> say_my_name("Nya")
      My name is Nya
 
 FAIL CASES:

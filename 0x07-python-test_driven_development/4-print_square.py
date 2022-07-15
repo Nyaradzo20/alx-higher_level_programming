@@ -1,4 +1,4 @@
-.#!/usr/bin/python3
+#!/usr/bin/python3
 """
 prints square using #'s
 Takes in an integer size
