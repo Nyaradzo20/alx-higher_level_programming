@@ -2,9 +2,7 @@
 """
 This module has one fuction,add and return an integer
 """
-
-
-def add_integer(a, b):
+def add_integer(a, b=98):
     """
     add_integer:
     Return sum of a and b, cast as int if float

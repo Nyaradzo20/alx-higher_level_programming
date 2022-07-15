@@ -1,0 +1,71 @@
+"the 0-add_integer module"
+>>> add_integer = __import__('0-add_integer').add_integer
+then:
+
+two ints:
+>>> add_integer(1, 2)
+3
+
+testing one argument:
+>>> add_integer(2)
+100
+
+one negative:
+>>> add_integer(100, -2)
+98
+
+cannot covert float Nan to int:
+>>> add_integer(5, float("nan"))
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
+
+float overflow:
+>>> add_integer(float('inf'),8)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to in
+check type
+
+no integer:
+>>> add_integer(None, "School")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+float and int:
+>>> add_integer(100.3, -2)
+98
+
+string and int:
+>>> add_integer(4, "School")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+a is a string:
+>>> add_integer("school", 100.3)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+two floats:
+>>> add_integer(100.3, 100.3)
+200
+
+>>> add_integer("Holberton", "School")
+Traceback (most recent call last):
+...
+TypeError:  a must be an integer
+
+Testing for adding zero and integer
+>>> add_integer(0, 424.2)
+424
+
+>>> add_integer(10, None)
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+Testing for two floats
+>>> add_integer(1.2, 2.3)
+3
