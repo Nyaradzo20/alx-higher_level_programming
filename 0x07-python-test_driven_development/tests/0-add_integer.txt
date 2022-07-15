@@ -69,3 +69,8 @@ TypeError: b must be an integer
 Testing for two floats
 >>> add_integer(1.2, 2.3)
 3
+
+Testing string as second argument
+>>> add_integer(1, "2")
+Traceback (most recent call last):
+TypeError: b must be an integer
