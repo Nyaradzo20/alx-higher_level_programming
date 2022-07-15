@@ -11,8 +11,8 @@ testing one argument:
 100
 
 one negative:
->>> add_integer(100, -2)
-98
+>>> add_integer(1, -2)
+-1
 
 cannot covert float Nan to int:
 >>> add_integer(5, float("nan"))
