@@ -8,10 +8,15 @@
 class Rectangle():
     """rectangle class"""
 
+    number_of_instances = 0
+    #counts rects    
     def __init__(self, width=0, height=0):
         """Initialize class."""
         self.width = width
         self.height = height
+        #adss number of instances
+        Rectangle.number_of_instances += 1
+                
 
     def area(self):
         """Return Rectangle area"""
@@ -72,4 +77,6 @@ class Rectangle():
 
     def __del__(self):
         '''everytime a rectangle is deleted  print the following'''
+        '''decrease number of instances'''
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
