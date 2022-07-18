@@ -69,3 +69,7 @@ class Rectangle():
             return("")
         else:
             return("Rectangle({:d}, {:d})".format(self.__width, self.__height))
+
+    def __del__(self):
+        '''everytime a rectangle is deleted  print the following'''
+        print("Bye rectangle...")
