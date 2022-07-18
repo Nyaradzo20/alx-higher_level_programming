@@ -9,15 +9,15 @@ class Rectangle():
     """rectangle class"""
 
     number_of_instances = 0
-    #counts rects    
+    # counts rects
+
     def __init__(self, width=0, height=0):
         """Initialize class."""
         self.width = width
         self.height = height
-        #adss number of instances
-        Rectangle.number_of_instances += 1
-                
 
+        # adss number of instances
+        Rectangle.number_of_instances += 1               
     def area(self):
         """Return Rectangle area"""
         return self.__width * self.__height
