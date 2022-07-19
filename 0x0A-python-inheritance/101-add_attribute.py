@@ -3,6 +3,7 @@
 
 
 def add_attribute(*args):
+    '''add atrib...'''
     if "main" in str(type(args[0])):
         setattr(args[0], args[1], args[2])
     else:

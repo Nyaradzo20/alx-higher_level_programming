@@ -3,6 +3,8 @@
 
 
 class MyInt(int):
+    '''new class'''
+    
     def __init__(self, value):
         self.num = value
 
