@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''new module'''
+
+
 class MyInt(int):
     def __init__(self, value):
         self.num = value

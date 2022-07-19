@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+'''add new attribbute'''
+
 
 def add_attribute(*args):
     if "main" in str(type(args[0])):
