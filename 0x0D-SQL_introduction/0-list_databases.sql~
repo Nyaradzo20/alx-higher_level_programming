@@ -1,0 +1,3 @@
+ --script to show databases in server
+
+SHOW DATABASES;
