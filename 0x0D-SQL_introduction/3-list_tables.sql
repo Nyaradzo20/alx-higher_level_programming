@@ -1,3 +1,3 @@
 -- lists tables fron database
 
-SHOW TABLES FROM mysql
+SHOW TABLES FROM mysql;
