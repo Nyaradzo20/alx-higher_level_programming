@@ -1,0 +1,1 @@
+Every machine on the the Internet has a unique number assigned to it, called an IP address. Without a unique IP address on your machine, you will not be able to communicate with other devices, users, and computers on the Internet. You can look at your IP address as if it were a telephone number, each one being unique and used to identify a way to reach you and only you.
