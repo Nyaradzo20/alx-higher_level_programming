@@ -1,6 +1,8 @@
-Why Python programming is awesome
-How to connect to a MySQL database from a Python script
-How to SELECT rows in a MySQL table from a Python script
-How to INSERT rows in a MySQL table from a Python script
-What ORM means
-How to map a Python Class to a MySQL table
+# 0x0F. Python - Object-relational mapping
+
+In this project, I learnt to use Object Relational Mappers in place of actual SQL with the SQLAlchemy python module.
+
+## Resources
+- [fullstackpython.com](https://www.fullstackpython.com/object-relational-mappers-orms.html)
+- [edureka](https://www.youtube.com/watch?v=g60QghtJmjY)
+- [overiq.com](https://overiq.com/sqlalchemy-101/)
